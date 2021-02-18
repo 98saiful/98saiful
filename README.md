@@ -1,7 +1,7 @@
-- 🔭 I’m currently doing an internship
+- 🔭 I’m currently seeking for developer role
 - 🌱 I’m currently learning Android apps development
 - 📫 How to reach me: saifulamir98@gmail.com
-- ⚡ Fun fact: I'm comming to teen
+- ⚡ Fun fact: Nothing
 
 - <a href="https://www.instagram.com/saiful.amr/"><img src="https://img.shields.io/badge/instagram%20@saiful.amr-DD2476?style=for-the-badge&logo=instagram&logoColor=white"/></a>
 - <a href=""><img src="https://img.shields.io/badge/facebook%20@saifulamir-344E86?style=for-the-badge&logo=facebook&logoColor=white"/></a>
