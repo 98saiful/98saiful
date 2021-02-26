@@ -14,9 +14,9 @@ val saiful = developer {
 }
 ```
 
-<a href="https://github.com/98saiful"><img alt="Git Stats" src="https://github-readme-stats.vercel.app/api?username=98saiful&show_icons=true&theme=dark" height="150"/></a>
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=98saiful&show_icons=true&theme=dark)
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=98saiful&layout=compact&show_icons=true&theme=dark"/>
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=98saiful&layout=compact&theme=dark)
 
 <p align="center">
 <img src="https://visitor-badge.laobi.icu/badge?page_id=98saiful" id="counter">
