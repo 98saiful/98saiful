@@ -14,10 +14,15 @@ val saiful = developer {
 }
 ```
 
-<img src="https://github-readme-stats.vercel.app/api?username=98saiful&show_icons=true&theme=radical&title_color=8E2DE2&text_color=fff&icon_color=8E2DE2&bg_color=151515">
+<a href="https://github.com/98saiful"><img alt="Git Stats" src="https://github-readme-stats.vercel.app/api?username=98saiful&show_icons=true" align="right" height="150"/></a>
+
+
+
 
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=98saiful&layout=compact&show_icons=true&title_color=8E2DE2&icon_color=79ff97&text_color=9f9f9f&bg_color=151515"/>
+
+
 
 
 <p align="center">
