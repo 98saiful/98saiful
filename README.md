@@ -14,9 +14,9 @@ val saiful = developer {
 }
 ```
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=98saiful&show_icons=true&theme=dark)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=98saiful&show_icons=true&theme=gotham)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=98saiful&layout=compact&theme=dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=98saiful&layout=compact&theme=gotham)
 
 <p align="center">
 <img src="https://visitor-badge.laobi.icu/badge?page_id=98saiful" id="counter">
