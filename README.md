@@ -9,7 +9,7 @@ val saiful = developer {
     tech("Kotlin", "Android")
     links {
         twitter = "@98saiful"
-        linkedin = "https://www.linkedin.com/in/saifulamir98/"
+        linkedin = "linkedin.com/in/saifulamir98/"
     }
 }
 ```
