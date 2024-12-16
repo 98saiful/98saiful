@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+            color: #fff;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+            animation: fadeIn 2s ease-in-out;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 1rem;
+            animation: fadeIn 3s ease-in-out;
+        }
+        .balloons {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+        .balloon {
+            position: absolute;
+            bottom: -150px;
+            width: 50px;
+            height: 70px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 50%;
+            animation: float 5s infinite ease-in-out;
+        }
+        .balloon:nth-child(odd) {
+            background-color: rgba(255, 215, 0, 0.7);
+        }
+        @keyframes float {
+            0% {
+                transform: translateY(0) rotate(0);
+            }
+            50% {
+                transform: translateY(-800px) rotate(15deg);
+            }
+            100% {
+                transform: translateY(-1600px) rotate(-15deg);
+            }
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        button {
+            background-color: #fff;
+            color: #ff6f61;
+            border: none;
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-top: 2rem;
+            animation: fadeIn 4s ease-in-out;
+        }
+        button:hover {
+            background-color: #ff6f61;
+            color: #fff;
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Happy Birthday, [Her Name]!</h1>
+        <h2>You are the most amazing person in my life. Wishing you all the happiness in the world!</h2>
+        <button onclick="playMusic()">Play Birthday Song</button>
+    </div>
+
+    <div class="balloons">
+        <div class="balloon" style="left: 10%; animation-delay: 0s;"></div>
+        <div class="balloon" style="left: 25%; animation-delay: 1s;"></div>
+        <div class="balloon" style="left: 40%; animation-delay: 2s;"></div>
+        <div class="balloon" style="left: 55%; animation-delay: 3s;"></div>
+        <div class="balloon" style="left: 70%; animation-delay: 4s;"></div>
+        <div class="balloon" style="left: 85%; animation-delay: 5s;"></div>
+    </div>
+
+    <audio id="birthdaySong" src="https://www.bensound.com/bensound-music/bensound-birthdaysong.mp3"></audio>
+
+    <script>
+        function playMusic() {
+            const audio = document.getElementById('birthdaySong');
+            audio.play();
+        }
+    </script>
+</body>
+</html>
